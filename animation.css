@@ -1,0 +1,57 @@
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+.card-icon {
+    animation: autorotate both;
+    animation-timeline: view();
+}
+
+
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.card h3 {
+    animation: fadeUp both;
+    animation-timeline:view();
+}
+
+.hero-title {
+    display: inline-block;
+    margin: 0.5rem;
+
+    animation: backInUp;
+    animation-duration: 2s;
+}
+
+.my-element {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+
+
+.section-title {
+  display: inline-block;
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  
+}
+
+.yalla1{
+    margin-left: -1250px;
+    margin-top: -300px;
+}
+
