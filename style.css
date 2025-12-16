@@ -103,17 +103,7 @@ body {
     opacity: 0.9;
 }
 
-.hero-btn {
-    background: white;
-    color: #667eea;
-    border: none;
-    padding: 15px 40px;
-    font-size: 1.1rem;
-    border-radius: 50px;
-    cursor: pointer;
-    font-weight: bold;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
+
 
 .hero-btn:hover {
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
